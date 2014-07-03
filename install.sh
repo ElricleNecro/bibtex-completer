@@ -31,7 +31,7 @@ cd "`dirname "${current}"`" > /dev/null
 current="`pwd`";
 popd  > /dev/null
 
-echo "Move files to it"
+echo "Move files to it."
 CP=$(which cp)
 $CP -r $current/tex/*.py $INSTALL_DIR/tex/
 
